@@ -4,7 +4,6 @@ export default function Home() {
   return (
     <>
     <Header/>
-    <h1>open app</h1>
     </>
   );
 }
