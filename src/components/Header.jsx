@@ -6,7 +6,7 @@ import { FaAlignJustify } from "react-icons/fa";
 function Header() {
   return (
    <div className='w-full'>
-    <div className=' flex justify-around mt-4'>
+    <div className=' flex justify-around mt-6'>
         <div>
             <Image src={logo} alt="" className='w-full h-[25px]' />
         </div>
