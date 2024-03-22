@@ -14,7 +14,7 @@ function Services() {
         <div className='bg-[#FCCA18] rounded-xl shadow-2xl md:h-[330px] h-[350px]'>
               
                   <div className='p-10'>
-                     <div class='w-[50px] h-[50px]'>
+                     <div className='w-[50px] h-[50px]'>
                        <Image src={icon1}  alt='/'/>
                       </div>
                       <div className='mt-4'>
