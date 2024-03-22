@@ -16,9 +16,9 @@ function Hero() {
        </div>
        
        <div className='flex px-[5rem] justify-between mt-10'>
-  <div className=' mt-4'>
-    <p className='text-white font-thin text-2xl w-[334px] hidden md:block'>Cargo, also known as freight, refers to goods or produce being transported from one place to another – by water, air or land.</p>
-  </div>
+    <div className=' mt-4'>
+      <p className='text-white font-thin text-2xl w-[334px] hidden md:block'>Cargo, also known as freight, refers to goods or produce being transported from one place to another – by water, air or land.</p>
+    </div>
   <div className='grid md:items-center items-start'>
     <h1 className='text-white font-bold md:text-[3rem] text-[2rem] md:w-[496px] w-[270px]'>Our All <span className='bg-[#FCB218] text-black'>Solution</span> for Your Business</h1>
     <div className=' items-center ml-60 gap-4 hidden md:block'> {/* Use ml-auto to push items to the end */}

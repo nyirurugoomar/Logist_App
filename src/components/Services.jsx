@@ -22,7 +22,7 @@ function Services() {
                       <p className='text-black text-[14px] mt-4'>Containerized cargo means general or wares that are shipped in reusable. commercial sized shipping containers.</p>
                       </div>
                   </div>
-                     <div class='w-[50px] h-[50px] relative '>
+                     <div className='w-[50px] h-[50px] relative '>
                        <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
@@ -30,7 +30,7 @@ function Services() {
               <div className='bg-[#FF7222] rounded-xl shadow-2xl md:h-[330px]  h-[350px]'>
               
                   <div className='p-10'>
-                     <div class='w-[50px] h-[50px]'>
+                     <div className='w-[50px] h-[50px]'>
                        <Image src={carIcon}  alt='/'/>
                       </div>
                       <div className='mt-4'>
@@ -38,7 +38,7 @@ function Services() {
                       <p className='text-black text-[14px] mt-4'>Road transport means transportation of goods and personnel from one place to the other on roads.</p>
                       </div>
                   </div>
-                     <div class='w-[50px] h-[50px] relative '>
+                     <div className='w-[50px] h-[50px] relative '>
                        <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
@@ -46,7 +46,7 @@ function Services() {
               <div className='bg-[#2C7BF2] rounded-xl shadow-2xl md:h-[330px]  h-[350px]'>
               
                   <div className='p-10'>
-                     <div class='w-[50px] h-[50px]'>
+                     <div className='w-[50px] h-[50px]'>
                        <Image src={airIcon}  alt='/'/>
                       </div>
                       <div className='mt-4'>
@@ -54,7 +54,7 @@ function Services() {
                       <p className='text-black text-[14px] mt-4'>Air freight parcel delivery is the transfer and shipment of goods via an air carrier, which may be charter or commercial.</p>
                       </div>
                   </div>
-                     <div class='w-[50px] h-[50px] relative '>
+                     <div className='w-[50px] h-[50px] relative '>
                        <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
@@ -62,7 +62,7 @@ function Services() {
               <div className='bg-[#09CA4B] rounded-xl shadow-2xl md:h-[330px]  h-[350px]'>
               
                   <div className='p-10'>
-                     <div class='w-[50px] h-[50px]'>
+                     <div className='w-[50px] h-[50px]'>
                        <Image src={cargoIcon}  alt='/'/>
                       </div>
                       <div className='mt-4'>
@@ -70,7 +70,7 @@ function Services() {
                       <p className='text-black text-[14px] mt-4'>Cargo, also known as freight, refers to goods or produce being transported from one place to another.</p>
                       </div>
                   </div>
-                     <div class='w-[50px] h-[50px] relative '>
+                     <div className='w-[50px] h-[50px] relative '>
                        <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
