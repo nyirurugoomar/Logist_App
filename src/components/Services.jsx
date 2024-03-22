@@ -8,26 +8,26 @@ import Image from 'next/image'
 
 function Services() {
   return (
-    <div className='w-full'>
-        <div className='grid grid-cols-1 lg:grid-cols-4  gap-x-8 gap-y-16  pt-12 sm:pt-20 text-black m-24'>
+    <div className='md:w-full'>
+        <div className='grid grid-cols-1 lg:grid-cols-4  gap-x-8 gap-y-16  md:pt-12 sm:pt-20 text-black md:m-24 m-10'>
 
-        <div className='bg-[#FCCA18] rounded-xl shadow-2xl h-[330px]'>
+        <div className='bg-[#FCCA18] rounded-xl shadow-2xl md:h-[330px] h-[350px]'>
               
                   <div className='p-10'>
                      <div class='w-[50px] h-[50px]'>
                        <Image src={icon1}  alt='/'/>
                       </div>
                       <div className='mt-4'>
-                      <h3 className='font-bold text-[24px]  text-orange'>Container Provide</h3>
+                      <h3 className='font-bold text-[24px] text-orange'>Container Provide</h3>
                       <p className='text-black text-[14px] mt-4'>Containerized cargo means general or wares that are shipped in reusable. commercial sized shipping containers.</p>
                       </div>
                   </div>
                      <div class='w-[50px] h-[50px] relative '>
-                       <Image src={arrowUp} className='absolute bottom-10 left-[215px]'  alt='/'/>
+                       <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
               </div>
-              <div className='bg-[#FF7222] rounded-xl shadow-2xl h-[330px]'>
+              <div className='bg-[#FF7222] rounded-xl shadow-2xl md:h-[330px]  h-[350px]'>
               
                   <div className='p-10'>
                      <div class='w-[50px] h-[50px]'>
@@ -39,11 +39,11 @@ function Services() {
                       </div>
                   </div>
                      <div class='w-[50px] h-[50px] relative '>
-                       <Image src={arrowUp} className='absolute bottom-10 left-[215px]'  alt='/'/>
+                       <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
               </div>
-              <div className='bg-[#2C7BF2] rounded-xl shadow-2xl h-[330px]'>
+              <div className='bg-[#2C7BF2] rounded-xl shadow-2xl md:h-[330px]  h-[350px]'>
               
                   <div className='p-10'>
                      <div class='w-[50px] h-[50px]'>
@@ -55,11 +55,11 @@ function Services() {
                       </div>
                   </div>
                      <div class='w-[50px] h-[50px] relative '>
-                       <Image src={arrowUp} className='absolute bottom-10 left-[215px]'  alt='/'/>
+                       <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
               </div>
-              <div className='bg-[#09CA4B] rounded-xl shadow-2xl h-[330px]'>
+              <div className='bg-[#09CA4B] rounded-xl shadow-2xl md:h-[330px]  h-[350px]'>
               
                   <div className='p-10'>
                      <div class='w-[50px] h-[50px]'>
@@ -71,7 +71,7 @@ function Services() {
                       </div>
                   </div>
                      <div class='w-[50px] h-[50px] relative '>
-                       <Image src={arrowUp} className='absolute bottom-10 left-[215px]'  alt='/'/>
+                       <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block'  alt='/'/>
                       </div>
                   
               </div>
