@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import box from '../assets/box.png'
+import {SuccessData} from '../constants/index.js'
+
 function Success() {
   return (
     <div className='w-full'>
@@ -13,8 +15,19 @@ function Success() {
             </div>
         </div>
         <div className=''>
-        <Image src={box} className='mt-10' alt='box'/>
+        <Image src={box} className='mt-20' alt='box'/>
         </div>
+        <div className='grid grid-cols-1 lg:grid-cols-4  gap-x-8 gap-y-16  md:pt-12 sm:pt-20 text-black md:m-24 m-10'>
+            {SuccessData.map((item) =>(
+               <div key={item.id} className='bg-[#161B25] w-[303px] h-[170px] p-8 rounded-[16px]'>
+               <h1 className='text-[#FCCA18] text-[60px]'>{item.number}</h1>
+               <p className='text-[#FCCA18] text-[20px]'>{item.description}</p>
+            </div>
+            ))}
+        </div>
+
+        
+        
     </div>
   )
 }
