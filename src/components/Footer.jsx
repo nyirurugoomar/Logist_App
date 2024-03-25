@@ -11,7 +11,7 @@ function Footer() {
         </div>
 
        
-        <div className=' md:flex md:justify-around mt-6m text-center md:text-start'>
+        <div className=' md:flex md:justify-around mt-6m text-center md:text-start mb-8'>
         <div className='text-white font-thin'>
             <h5>Blog</h5>
             <h5>Trendy</h5>

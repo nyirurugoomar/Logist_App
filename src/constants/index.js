@@ -33,14 +33,14 @@ export const Services =[
     },
     {
         "id":"2",
-        "color":"#FF7222",
+        "color":"[#FF7222]",
         // "icon":"/../assets/carIcon.png",
         "title":"Road Freight",
         "description":"Road transport means transportation of goods and personnel from one place to the other on roads.",
     },
     {
         "id":"3",
-        "color":"#2C7BF2",
+        "color":"[#2C7BF2]",
         // "icon":"/../assets/airIcon.png",
         "title":"Container Provide",
         "description":"Air freight parcel delivery is the transfer and shipment of goods via an air carrier, which may be charter or commercial."
@@ -48,11 +48,11 @@ export const Services =[
     },
     {
         "id":"4",
-        "color":"#09CA4B",
+        "color":"[#09CA4B]",
         // "icon":"/../assets/cargoIcon.png",
         "title":"Cargo Freight",
         "description":"Cargo, also known as freight, refers to goods or produce being transported from one place to another."
-    }
+    },
 
 ]
     

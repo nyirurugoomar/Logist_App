@@ -592,6 +592,12 @@ video {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
 .flex {
   display: flex;
 }
@@ -725,6 +731,18 @@ video {
 .bg-\[\#FCB218\] {
   --tw-bg-opacity: 1;
   background-color: rgb(252 178 24 / var(--tw-bg-opacity));
+}
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 .object-center {
   -o-object-position: center;
