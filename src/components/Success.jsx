@@ -19,7 +19,7 @@ function Success() {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-4  gap-x-8 gap-y-16  md:pt-12 sm:pt-20 text-black md:m-24 m-10'>
             {SuccessData.map((item) =>(
-               <div key={item.id} className='bg-[#161B25] w-[303px] h-[170px] p-8 rounded-[16px]'>
+               <div key={item.id} className='bg-[#161B25] w-[303px] h-[170px] p-8 rounded-[16px] md:text-center text-center'>
                <h1 className='text-[#FCCA18] text-[60px]'>{item.number}</h1>
                <p className='text-[#FCCA18] text-[20px]'>{item.description}</p>
             </div>

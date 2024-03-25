@@ -8,18 +8,18 @@ function ServicesComponent() {
     <div className='md:w-full'>
       <div className='grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-16 md:pt-12 sm:pt-20 text-black md:m-24 m-10'>
         {Services.map((service) => (
-          <div key={service.id} className={'bg-' + service.color + ' rounded-xl shadow-2xl md:h-[330px] h-[350px]'}>
+          <div key={service.id} className={`bg-${service.color} rounded-xl shadow-2xl md:h-[330px] h-[350px]`}>
             <div className='p-10'>
               <div className='w-[50px] h-[50px]'>
                 {/* <Image src={service.icon} alt='' width={50} height={50} /> */}
               </div>
               <div className='mt-4'>
-                <h3 className='font-bold text-[24px] text-orange'>{service.title}</h3>
-                <p className='text-black text-[14px] mt-4'>{service.description}</p>
+                <h3 className='font-bold text-[24px] text-white'>{service.title}</h3>
+                <p className='text-white text-[14px] mt-4 '>{service.description}</p>
               </div>
             </div>
             <div className='w-[50px] h-[50px] relative '>
-              <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block' alt='arrow' />
+              <Image src={arrowUp} className='absolute bottom-10 left-[215px] hidden md:block ' alt='arrow' />
             </div>
           </div>
         ))}
